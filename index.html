@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayathri C | Data Analyst</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #000000;
+    color: #f5f5f5;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #0d0d0d;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 2px solid #ff1a1a;
+}
+
+nav .logo {
+    color: #ff1a1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav .links a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav .links a:hover {
+    color: #ff1a1a;
+}
+
+/* HERO SECTION */
+#home {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 15% 80px;
+}
+
+#home h1 {
+    font-size: 48px;
+    color: #ff1a1a;
+    margin-bottom: 10px;
+}
+
+/* Typing Effect */
+.typing {
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-right: 2px solid #ff1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: typing 4s steps(40) infinite alternate;
+    color: #ff1a1a;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 380px }
+}
+
+/* Buttons */
+.hero-buttons a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #ff1a1a;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: white;
+    color: black;
+}
+
+.btn-outline {
+    border: 2px solid #ff1a1a;
+    color: #ff1a1a;
+}
+
+.btn-outline:hover {
+    background: #ff1a1a;
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    padding: 100px 15%;
+    scroll-margin-top: 100px;
+}
+
+section:nth-child(even) {
+    background: #111111;
+}
+
+h2 {
+    color: #ff1a1a;
+    margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #1a1a1a;
+    padding: 8px 14px;
+    margin: 6px 6px 0 0;
+    border-radius: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #ff1a1a;
+    color: white;
+}
+
+/* CARDS */
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #ff1a1a;
+    box-shadow: 0 0 15px #ff1a1a55;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0d0d0d;
+    color: #ff1a1a;
+    border-top: 2px solid #ff1a1a;
+}
+
+/* 🔥 Internship Visibility Fix */
+#internship {
+    padding-bottom: 180px;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav .links {
+        margin-top: 10px;
+    }
+
+    #home h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 80px 8%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Gayathri C</div>
+    <div class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#internship">Internship</a>
+    </div>
+</nav>
+
+<section id="home">
+    <h1>Gayathri C</h1>
+    <div class="typing">
+        Data Analyst | SQL | Excel | Tableau | Python
+    </div>
+    <p>
+        Turning data into meaningful insights and contributing effectively within collaborative teams.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="mailto:gayathri36304@gmail.com" class="btn-primary">Email Me</a>
+        <a href="#" class="btn-outline">LinkedIn</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>
+        AI & Data Science student skilled in Python, SQL, and Full Stack development with internship experience in AI, GenAI, and web technologies. 
+        Passionate about applying data-driven solutions and building scalable applications.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <h3>Programming Languages</h3>
+    <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+    </div>
+
+    <h3>Tools</h3>
+    <div class="skills">
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <span>Tableau</span>
+        <span>Excel</span>
+    </div>
+
+    <h3>Framework</h3>
+    <div class="skills">
+        <span>YOLOv8</span>
+        <span>TensorFlow Lite</span>
+        <span>React.js</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Vehicle Identification System</h3>
+        <p>Developed a machine learning model to detect and classify vehicles (tyre, bike, car) in real-time using computer vision.</p>
+    </div>
+
+    <div class="card">
+        <h3>WellGenix – Healthcare Assistant</h3>
+        <p>Created a smart healthcare app to generate personalized diet plans and monitor user progress.</p>
+    </div>
+
+    <div class="card">
+        <h3>Medicine Tracker App</h3>
+        <p>Built an application to manage medication schedules and refill reminders.</p>
+    </div>
+
+    <div class="card">
+        <h3>Class IQ – Multilingual Learning Platform</h3>
+        <p>Built a multilingual voice-generated platform for students (Class 1–12) with chatbot, books, and flashcards using React.</p>
+    </div>
+</section>
+
+<section id="internship">
+    <h2>Internship Experience</h2>
+
+    <div class="card">
+        <h3>AI Research Intern – Imai Technologies</h3>
+        <p>Developed and tested ML model for real-time vehicle detection and classification.</p>
+    </div>
+
+    <div class="card">
+        <h3>GenAI Intern – Skillible</h3>
+        <p>Applied prompt engineering and automated report generation using GenAI tools.</p>
+    </div>
+
+    <div class="card">
+        <h3>Full Stack Developer Intern – Webgen</h3>
+        <p>Built and deployed responsive web application integrating front-end and back-end logic.</p>
+    </div>
+</section>
+
+<footer>
+    Gayathri C | Coimbatore | gayathri36304@gmail.com
+</footer>
+
+</body>
+</html>
